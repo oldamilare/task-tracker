@@ -43,3 +43,5 @@ ln -s "$(pwd)/task_cli.py" /usr/local/bin/task-cli
 Missing/extra arguments, non-numeric or unknown IDs, empty descriptions, unknown commands/statuses,
 and a corrupt `tasks.json` all print a clear message to stderr and exit with code 1.
 Writes are atomic (temp file + rename) so the JSON can't be left half-written.
+
+Project URL: https://roadmap.sh/projects/task-tracker
